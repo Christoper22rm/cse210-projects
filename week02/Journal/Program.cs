@@ -1,4 +1,3 @@
-// Main program file: Program.cs
 using System;
 using System.Collections.Generic;
 using System.IO;
