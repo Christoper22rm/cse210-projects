@@ -17,7 +17,7 @@ class Video
 {
     public string Title { get; set; }
     public string Author { get; set; }
-    public int Duration { get; set; } // In seconds
+    public int Duration { get; set; }
     private List<Comment> comments = new List<Comment>();
     
     public Video(string title, string author, int duration)
