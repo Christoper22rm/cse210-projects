@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 
-// Abstract base class for activities
 abstract class Activity
 {
     protected string Name;
@@ -27,7 +26,6 @@ abstract class Activity
     
     protected abstract void Execute();
 
-    // Loading animation
     protected void LoadingAnimation(int seconds)
     {
         for (int i = seconds; i > 0; i--)
@@ -39,7 +37,6 @@ abstract class Activity
     }
 }
 
-// Reflection activity class
 class ReflectionActivity : Activity
 {
     private List<string> questions = new List<string>
@@ -64,7 +61,6 @@ class ReflectionActivity : Activity
     }
 }
 
-// Main program
 class Program
 {
     static void Main()
