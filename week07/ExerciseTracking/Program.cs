@@ -11,11 +11,12 @@ class Program
             new Cycling(new DateTime(2022, 11, 4), 40, 20.0),
             new Swimming(new DateTime(2022, 11, 5), 25, 20)
         };
-        
+
         foreach (var activity in activities)
         {
             Console.WriteLine(activity.GetSummary());
         }
     }
 }
+
 

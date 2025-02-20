@@ -3,7 +3,7 @@ using System;
 class Swimming : Activity
 {
     private int _laps;
-    
+
     public Swimming(DateTime date, int duration, int laps) : base(date, duration)
     {
         _laps = laps;
@@ -13,3 +13,4 @@ class Swimming : Activity
     public override double GetSpeed() => (GetDistance() / Duration) * 60;
     public override double GetPace() => Duration / GetDistance();
 }
+
